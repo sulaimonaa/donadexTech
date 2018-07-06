@@ -1,0 +1,67 @@
+.about-banner{
+    width: 100%;
+    height: 300px;
+    background: url(../images/abt.jpg);
+    margin-bottom: 5px;
+}
+.about-banner-title{
+    width: 25%;
+    height: 75px;
+    margin-top: 225px;
+    background: #ffffff;
+    position: absolute;
+}
+.about-banner-title h3{
+    text-align: center;
+    color: #000000;
+    font-family: serif;
+    line-height: 75px;
+    margin: 0px;
+    padding: 0px;
+}
+fieldset{
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+fieldset p{
+    text-align: justify;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 15px;
+}
+legend{
+    text-align: center;
+}
+.about-title{
+    width: 150px;
+    height: 50px;
+    background: #000000;
+    color: #ffffff;
+}
+.about-title:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: 4s;
+    cursor: pointer;
+}
+.about-title h4{
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .about-banner-title{
+        height: 60px;
+        width: 100%;
+        margin-top: 240px;
+    }
+.about-banner-title h3{
+        line-height: 60px;
+    }
+fieldset p{
+        text-align: left;
+    }
+}

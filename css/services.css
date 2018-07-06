@@ -1,0 +1,156 @@
+.service-banner{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+.service-banner-left{
+    width: 66.9%;
+    height: 400px;
+    float: left;
+    box-shadow: 0 0 2px 0;
+}
+.service-banner-right{
+    width: 33%;
+    height: 400px;
+    float: right;
+    background: #ffffff;
+    box-shadow: 0 0 2px 0;
+}
+#service-container{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+#service-container >img{
+	width: 100%;
+	height: 400px;
+	position: absolute;	
+}
+#service-container >.btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+    color: rgba(0, 0, 0, 1);
+	border: none;
+	top: 170px;	
+    background: rgba(242, 242, 242, 0);
+    cursor: pointer;
+    font-size: 50px;
+}
+#service-container-- >#btn1:hover{
+	box-shadow: 5px 0px 30px 0px white;	
+}
+#service-container-- >#btn2:hover{
+	box-shadow: -5px 0px 30px 0px white;	
+}
+#service-container >#btn2{
+	position: relative;
+	float: right;	
+}
+.service-request{
+    
+}
+.service-request h4{
+    text-align: center;
+    font-family: 'Nosifer', cursive;
+    color: green;
+}
+.service-request form{
+    background: #ec6401;
+    height: 330px;
+}
+.service-request form input,
+.service-request form select{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.service-request form textarea{
+    width: 80%;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.service-request form input[type='submit']{
+    background: green;
+    color: #ffffff;
+    cursor: pointer;
+}
+.service-listing{
+    width: 100%;
+    height: 780px;
+}
+.service-listing-wrapper{
+    width: 90%;
+    height: 600px;
+    margin: 0 100px;
+}
+.service-listing-top{
+    width: 45%;
+    margin: 10px;
+    float: left;
+    box-shadow: 0 0 5px 0;
+}
+.service-listing-top img{
+    width: 100%;
+    height: 300px;
+}
+.service-listing-top p{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    margin: 5px;
+    font-size: 1em;
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .service-banner-left{
+        width: 100%;
+        height: auto;
+        float: none;
+        position: relative;
+    }
+    .service-banner-right{
+        width: 100%;
+        float: none;
+        position: relative;
+    }
+    #service-container >.btn{
+        top: 120px;   
+    }
+    #service-container >#btn2{
+        position: absolute;
+        margin-left: 350px;
+        top: 120px;
+    }
+    .service-banner{
+        height: auto;   
+    }
+    #service-container{
+	   height: 300px;
+    }
+    #service-container >img{
+	   height: 300px;	
+    }
+    .service-listing-wrapper{
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+    }
+    .service-listing-top{
+    width: 100%;
+    margin: 0px;
+    float: none;
+    }
+    .service-listing{
+    width: 100%;
+    height: 1500px;
+    }
+}
